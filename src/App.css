@@ -1,0 +1,29 @@
+
+ul {
+  padding-inline-start: 0;
+  margin: 5px;
+}
+
+li {
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.complete {
+  background-color:rgb(236, 16, 137);
+}
+
+.complete h4 {
+  text-decoration: line-through;
+}
+
+.incomplete {
+  background-color:purple;
+}
+
